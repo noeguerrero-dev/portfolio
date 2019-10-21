@@ -1,0 +1,57 @@
+body {
+  padding-top: 3rem;
+}
+
+.hero {
+  padding: 20vh 0;
+  background: linear-gradient(to right, #08ffc8, #204969);
+}
+
+.about {
+  padding: 10vh 0;
+  background: #222;
+  color: white;
+}
+#about-head {
+  color: #08ffc8;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 20vh 0;
+  }
+}
+
+.projects {
+  padding: 10vh 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    padding: 20vh 0;
+  }
+}
+
+.featured-price {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 10;
+  background: #222;
+}
+.coding-lang {
+  font-style: oblique;
+  font-size: 20px;
+  color: #08ffc8;
+}
+.card-block {
+  background-color: #222;
+  color: white;
+}
+
+footer {
+  padding: 10vh 0;
+  text-align: center;
+  background: black;
+  color: white;
+}
